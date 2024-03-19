@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartPrix.com</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles/css/index.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+     <!-- CDN Links for FontAwesome -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer"
+   />
+
+   <!-- tailwdind css -->
+   <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <div class="hidden md:block ">
+        <div class="top-nav px-[60px]">
+            <div class="logo">
+    
+                <h3 class="font-bold text-3xl">
+                    <span class="sm">sm</span><span id="art">art</span><span id="prix">prix</span>
+                </h3>
+    
+            </div>
+    
+            <div class="search-bar ">
+                <div class="search-input">
+                    <input type="text" placeholder="Search for products, brands & more ...">
+                    <i class="fa-solid fa-magnifying-glass search"></i>
+                </div>
+    
+            </div>
+    
+            <div class="login">
+                <ul class="log">
+    
+                    <i class="fa-solid fa-user"></i>
+    
+                    <li>
+                        Login
+    
+                        <ul class="sub-menu">
+    
+                            <div class="inner">
+                                <i class="fa-solid fa-right-to-bracket"></i>
+                                <li><a href="#">Login</a></li>
+                            </div>
+    
+                            <div class="inner">
+    
+                                <i class="fa-regular fa-user"></i>  
+                                <li><a href="#" target="_blank">Signup</a></li>
+    
+                            </div>
+                            
+                        </ul>
+    
+    
+                    </li>
+                    <i class="fa-solid fa-angle-down angle-ico" ></i>
+                </ul>
+    
+            </div>
+    
+    
+            <!--------- More ------ -->
+            <div class="more">
+    
+                <ul class="more-in">
+    
+                    <li>
+                        More
+    
+                        <ul class="more-inner">
+    
+                            <div class="inner-2">
+    
+                                <i class="fa-solid fa-envelope"></i>
+                                <li><a href="#">Contact Us</a></li>
+    
+                            </div>
+    
+                            <div class="inner-2">
+    
+                                <i class="fa-brands fa-facebook"></i>
+                                <li><a href="#">Facebook</a></li>
+    
+    
+                            </div>
+    
+                            <div class="inner-2">
+    
+                                <i class="fa-brands fa-twitter"></i>
+                                <li><a href="#">Twitter</a></li>
+    
+    
+                            </div>
+    
+                            <div class="inner-2">
+    
+                                <i class="fa-brands fa-youtube"></i>
+                                <li><a href="#">You Tube</a></li>
+    
+                            </div>
+    
+                            <div class="inner-2">
+    
+                                <i class="fa-brands fa-instagram"></i>
+                                <li><a href="#">Instagram</a></li>
+    
+                            </div>
+    
+                            <div class="inner-2">
+    
+                                <i class="fa-brands fa-telegram"></i>
+                                <li><a href="#">Telegram</a></li>
+    
+                            </div>
+    
+    
+                            <div class="inner-2">
+    
+                                <i class="fa-brands fa-google-play"></i>
+                                <li><a href="#">Android App</a></li>
+    
+    
+    
+                            </div>
+                         
+    
+                        </ul>
+    
+    
+    
+    
+                    </li>
+                    <i class="fa-solid fa-angle-down angle-ico"></i>
+    
+                </ul>
+    
+            </div>
+    
+    
+        </div>
+
+        <!-- navbar  -->
+        <ul class="w-full h-[50px] flex items-center gap-[30px] bg-[#0f63ca] text-blue-100 px-[60px] ">
+            <li class="cursor-pointer">Mobiles</li>
+            <li class="cursor-pointer">Tablets</li>
+            <li class="cursor-pointer">Laptops</li>
+            <li class="cursor-pointer">TVs</li>
+            <li id='electronics' class="cursor-pointer relative">
+                <ul  class=" flex gap-2 items-center leading-[50px]">
+                    <li>Electronics</li>
+                    <li class="down"> <i class="fa-solid fa-angle-down angle-ico " ></i></li>
+                    <li class="up"><i class="fa-solid fa-angle-up"></i></li>
+                </ul>
+
+                <!-- submenu -->
+                <ul id='sub-electronics' class="absolute z-10 w-[200px] flex flex-col gap-5  bg-slate-200 text-black ">
+                    <!-- upper part -->
+                    <li class="flex flex-col gap-2 ">
+                        <div class="flex items-center gap-2 hover:bg-blue-200 px-3 py-2">
+                            <div class="w-[40px] h-[40px] rounded-full bg-gray-100 flex items-center justify-center">
+                                <img src="./Assets/images/sundar.png" alt="" class="rounded-full">
+                            </div>
+                            <p>Cameras</p>
+                        </div>
+                        <div class="flex items-center gap-2 hover:bg-blue-200 px-3 py-2">
+                            <div class="w-[40px] h-[40px] rounded-full bg-gray-100 flex items-center justify-center">
+                                <img src="./Assets/images/sundar.png" alt="" class="rounded-full">
+                            </div>
+                            <p>Cameras</p>
+                        </div>
+                        <div class="flex items-center gap-2 hover:bg-blue-200 px-3 py-2">
+                            <div class="w-[40px] h-[40px] rounded-full bg-gray-100 flex items-center justify-center">
+                                <img src="./Assets/images/sundar.png" alt="" class="rounded-full">
+                            </div>
+                            <p>Cameras</p>
+                        </div>
+                    </li>
+
+                    <!-- lower part -->
+                    <li class="flex flex-col gap-2 ">
+                        <h1 class="font-bold px-3 py-2 hover:bg-blue-200">Gaming</h1>
+                        <div class="flex items-center gap-2 hover:bg-blue-200 px-3 py-2">
+                            <div class="w-[40px] h-[40px] rounded-full bg-gray-100 flex items-center justify-center">
+                                <img src="./Assets/images/sundar.png" alt="" class="rounded-full">
+                            </div>
+                            <p>Cameras</p>
+                        </div>
+                        <div class="flex items-center gap-2 hover:bg-blue-200 px-3 py-2">
+                            <div class="w-[40px] h-[40px] rounded-full bg-gray-100 flex items-center justify-center">
+                                <img src="./Assets/images/sundar.png" alt="" class="rounded-full">
+                            </div>
+                            <p>Cameras</p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+<!--nav for mobile -->
+<div class="w-full bg-[#0A3A75] p-[10px] md:hidden">
+    <!-- upper search part -->
+    <div class="w-full bg-white flex  justify-between items-center h-[50px] px-[15px] rounded">
+        <div class="flex items-center gap-[10px] ">
+            <i class="fa-solid fa-bars text-lg text-gray-500 mt-[12px]"></i>
+            <p class="text-3xl font-bold text-[#4692F0]"><span class="bg-[#4692F0] text-white pt-[5px]">sm</span class=''>artprix</p>
+        </div>
+    
+        <div class="flex items-center gap-[20px] text-xl text-gray-500">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+    </div>
+
+    <!-- down mobile laptops part -->
+    <div class="text-white flex justify-around items-center mt-[10px]">
+        <i class="fa-solid fa-house"></i>
+        <p>MOBILES</p>
+        <p>LAPTOPS</p>
+        <p>TVS</p>
+        <p>CARS<sup class="font-bold text-green-400 text-lg"> .</sup></p>
+    </div>
+</div>
+
+    <!-- deals news car -->
+    <div class="w-full md:px-[60px] mt-[10px]">
+        <div class="w-full grid grid-cols-5 md:flex justify-between items-center sm:gap-2 border  text-center md:px-3 py-2 px-2 bg-slate-200 rounded">
+            <div class="cursor-pointer transform hover:scale-105 transition duration-200 ease-in-out hover:font-medium">
+             <div class="w-[70px] h-[70px] md:w-[100px] md:h-[100px] rounded-full bg-gray-100 flex justify-center items-center ">
+             <img src="./Assets/images/sundar.png" alt="" class="rounded-full ">
+             </div>
+     
+             <p>Deals</p>
+            </div> 
+            <div class="cursor-pointer transform hover:scale-105 transition duration-200 ease-in-out hover:font-medium">
+             <div class="w-[70px] h-[70px] md:w-[100px] md:h-[100px] rounded-full bg-gray-100 flex justify-center items-center">
+             <img src="./Assets/images/sundar.png" alt="" class="rounded-full">
+             </div>
+     
+             <p>Deals</p>
+            </div> 
+            <div class="cursor-pointer transform hover:scale-105 transition duration-200 ease-in-out hover:font-medium">
+             <div class="w-[70px] h-[70px] md:w-[100px] md:h-[100px] rounded-full bg-gray-100 flex justify-center items-center">
+             <img src="./Assets/images/sundar.png" alt="" class="rounded-full">
+             </div>
+     
+             <p>Deals</p>
+            </div> 
+            <div class="cursor-pointer transform hover:scale-105 transition duration-200 ease-in-out hover:font-medium">
+             <div class="w-[70px] h-[70px] md:w-[100px] md:h-[100px] rounded-full bg-gray-100 flex justify-center items-center">
+             <img src="./Assets/images/sundar.png" alt="" class="rounded-full">
+             </div>
+     
+             <p>Deals</p>
+            </div> 
+            <div class="cursor-pointer transform hover:scale-105 transition duration-200 ease-in-out hover:font-medium">
+             <div class="w-[70px] h-[70px] md:w-[100px] md:h-[100px] rounded-full bg-gray-100 flex justify-center items-center">
+             <img src="./Assets/images/sundar.png" alt="" class="rounded-full">
+             </div>
+     
+             <p>Deals</p>
+            </div> 
+            <div class="cursor-pointer transform hover:scale-105 transition duration-200 ease-in-out hover:font-medium">
+             <div class="w-[70px] h-[70px] md:w-[100px] md:h-[100px] rounded-full bg-gray-100 flex justify-center items-center">
+             <img src="./Assets/images/sundar.png" alt="" class="rounded-full">
+             </div>
+     
+             <p>Deals</p>
+            </div> 
+            <div class="cursor-pointer transform hover:scale-105 transition duration-200 ease-in-out hover:font-medium">
+             <div class="w-[70px] h-[70px] md:w-[100px] md:h-[100px] rounded-full bg-gray-100 flex justify-center items-center">
+             <img src="./Assets/images/sundar.png" alt="" class="rounded-full">
+             </div>
+     
+             <p>Deals</p>
+            </div> 
+            <div class="cursor-pointer transform hover:scale-105 transition duration-200 ease-in-out hover:font-medium">
+             <div class="w-[70px] h-[70px] md:w-[100px] md:h-[100px] rounded-full bg-gray-100 flex justify-center items-center">
+             <img src="./Assets/images/sundar.png" alt="" class="rounded-full">
+             </div>
+     
+             <p>Deals</p>
+            </div> 
+            <div class="cursor-pointer transform hover:scale-105 transition duration-200 ease-in-out hover:font-medium">
+             <div class="w-[70px] h-[70px] md:w-[100px] md:h-[100px] rounded-full bg-gray-100 flex justify-center items-center">
+             <img src="./Assets/images/sundar.png" alt="" class="rounded-full">
+             </div>
+     
+             <p>Deals</p>
+            </div> 
+            <div class="cursor-pointer transform hover:scale-105 transition duration-200 ease-in-out hover:font-medium">
+             <div class="w-[70px] h-[70px] md:w-[100px] md:h-[100px] rounded-full bg-gray-100 flex justify-center items-center">
+             <img src="./Assets/images/sundar.png" alt="" class="rounded-full">
+             </div>
+     
+             <p>Deals</p>
+            </div> 
+     
+            
+         </div>
+    </div>
+    
+</body>
+
+
+</html>

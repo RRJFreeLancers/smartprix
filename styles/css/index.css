@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Roboto slab'; */
+}
+
+
+/* TOP NAVBAR */
+.top-nav{
+    display: flex;
+    list-style: none;
+    background-color: #0A3A75;
+    justify-content: space-between;
+    color: white;
+    height: 55px;
+    align-items: center;
+}
+
+.logo{
+    font-size: 25px;
+}
+
+.sm{
+    background-color: #4692F0;
+    padding-top: 15px;
+}
+
+#art{
+    color: #1E579D;
+}
+
+#prix{
+    color: #066EAB;
+}
+
+input[type="text"]{
+    height: 40px;
+    width: 460px;
+    padding-left: 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+
+}
+
+
+.search-input {
+    position: relative;
+}
+
+
+.search {
+
+    font-size: 20px;
+    color: rgb(99, 98, 98);
+
+    position: absolute;
+    right: 10px;
+    top: 20%;
+    
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+
+
+}
+
+
+
+.log{
+    list-style: none;
+    color: white;
+    display: flex;
+    align-items:center;
+    margin-left: 350px;
+    font-size: 18px;
+    gap: 8px;
+
+    position: relative;
+}
+
+
+.more-in{
+    list-style: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    gap: 8px;
+}
+
+.angle-ico{
+    font-size: 10px;
+}
+
+.sub-menu{
+    list-style: none;
+    display: none;
+    background-color: white;
+    color: black;
+    border: 1px solid grey;
+    
+    position: absolute;
+}
+
+.inner{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 2px;
+    gap: 8px;
+}
+
+.inner:hover{
+    background-color: rgb(183, 227, 244);
+
+}
+
+.inner li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.log li:hover .sub-menu{
+    display: block;
+    /* background-color: lightblue; */
+}
+
+
+
+.more-in{
+    position: relative;
+}
+
+
+.more-inner{
+    display: none;
+      
+    right: 5%;
+
+    position: absolute;
+    color: black;
+
+    background-color: white;
+    
+}
+
+.more-inner li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.more-in:hover .more-inner{
+    display: block;
+}
+
+.inner-2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 125px;
+    
+}
+
+.inner-2:hover{
+    background-color: rgb(183, 227, 244);
+}
+
+
+#sub-electronics{
+    display: none;
+}
+
+.up{
+    display: none;
+}
+
+#electronics:hover #sub-electronics{
+    display: block;
+}
+
+#electronics:hover .down{
+    display: none;
+}
+
+#electronics:hover .up{
+    display: block;
+}
+
+
